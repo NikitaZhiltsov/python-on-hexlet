@@ -1,0 +1,13 @@
+# Конкатенация
+
+first_name = 'Joffrey'
+greeting = 'Hello'
+
+print(greeting + ", " + first_name + "!")  # => 'Hello, Joffrey!'
+
+# Интерполяция c использованием f-lines
+
+first_name = 'Joffrey'
+greeting = 'Hello'
+
+print(f'{greeting}, {first_name}!')  # => 'Hello, Joffrey!'
